@@ -375,7 +375,7 @@ autoload zed
 ## Prediction configuration
 #
 autoload predict-on
-predict-on
+#predict-on
 #predict-off
 
 ## Command Line Stack [Esc]-[q]
@@ -682,3 +682,9 @@ esac
 ## local固有設定
 #
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+
+## git-flowz補完設定
+#
+[ -f ~/rcfiles/git-flow-completion.zsh ] && source ~/rcfiles/git-flow-completion.zsh
+
