@@ -1,0 +1,18 @@
+defscrollback 1000
+escape ^Tt
+vbell off
+bell_msg "Bell in window %^G"
+autodetach on
+#shell $SHELL
+#shell /home/game/users/yamaguchi.toshiro/bin/bs
+startup_message off
+#logfile "/home/game/users/yamaguchi.toshiro/.screen/screen-%Y%m%d-%n.log"
+#deflog on
+
+caption always "%{= Rk} %?%F%{b kr}%? %?%h%:%t (screen #%n)%? %{-}"
+hardstatus alwayslastline "%{= Gk} %-Lw%40L>%{b kg} %n %?%h%:%t%? %{-}%+Lw%-040=%{b km} %l%{.b} "
+
+defkanji utf-8
+defencoding utf-8
+encoding utf-8 utf-8
+
